@@ -1,0 +1,446 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	margin:0px;
+	padding:0px;
+	font-family:Arial, Geneva, sans-serif;
+	background-image: url(../images/body-background.jpg);
+	background-color:#3e3e3e;
+	color:#ffffff;
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+a {
+	color:#ffffff;
+	outline: none;  
+}
+a:hover {
+	color:#818181;
+}
+a:active {
+	color:#ffffff;
+}
+a:visited {
+	color:#ffffff;
+}
+a img {
+	border:none;
+}
+h1 {
+	font-size:24px;
+}
+h2 {
+	font-size:18px;
+}
+p {
+	font-size:15px;
+}
+li {
+	font-size:15px;
+}
+.red { 
+	color: #c20008;
+	font-weight:bold;
+}
+
+.grey {
+	color: #818181;
+	font-weight:bold;
+}
+	
+#wrapper {
+	width:1024px;
+	background-color:#131313;
+	background-image:url(../images/wrapper-background.jpg);
+	background-repeat:repeat-x;
+	margin-left:auto;
+	margin-right:auto;
+}
+/* ------------------ navigation menu properties -----------------*/
+#main-menu-wrapper {
+	width:170px;
+	float:left;
+	position:fixed;
+	margin-top:15px;
+	margin-left: 10px;
+}
+#main-menu-bottom, #main-menu-top {
+	float:left;
+	margin-left:5px;
+	height:33px;
+}
+#main-menu {
+	width:158px;
+	margin-left:5px;
+	margin-top:0px;
+	background-image: url(../images/main-menu-background.jpg);
+	border-bottom: none;
+	border-left: 1px solid #464646;
+	border-right: 1px solid #464646;
+	color:#818181;
+	text-transform:uppercase;
+	float:left;
+}
+#main-menu img {
+	margin-left:10px;
+	margin-top: 10px;
+}
+#main-menu  ul {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:15px;
+}
+#main-menu li {
+	list-style:none;
+	padding-bottom:6px;
+	font-size:18px;	
+}
+#main-menu li a {
+	color:#818181;
+	text-decoration:none;
+}
+#main-menu li a.current, #main-menu li a:hover  {
+	color:#ffffff;	
+}
+#main-menu #opening_hours {
+	float: left;
+	width: 138px;
+	margin-left: 10px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #464646;
+	border-bottom-color: #464646;
+	margin-bottom: 10px;
+	text-transform: none;
+}
+#main-menu #opening_hours p {
+	color: #FFF;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#main-menu #opening_hours ul {
+	padding-left:30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size:15px;
+}
+#main-menu #opening_hours ul li {
+	font-size: 14px;
+	color: #666;
+	text-transform: none;
+}
+#dateDiv {
+	text-align:center;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #464646;
+	padding-top:10px;
+	margin-bottom:10px;
+}
+
+/* ------ header properties --------------*/
+#header {
+	width:815px;
+	height:120px;
+	margin-top:15px;
+	margin-right:15px;
+	float:right;
+	position:relative;
+	background-image: url(../images/header_background.jpg);
+	border-top-width: 3px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #464646;
+	border-right-color: #464646;
+	border-bottom-color: #464646;
+	border-left-color: #464646;
+}
+#header #style-link {
+	height:52px;
+	width:271px;
+	position:absolute;
+	top:25px;
+	right:-35px;
+	background-image:url(../images/header-links.png);
+}
+#header #style-link p {
+	padding-left:15px;
+}
+#header #style-link p a {
+	position:relative;
+	margin-left:5px;
+	margin-right:5px;	
+}
+#header img {
+	margin-left:60px;
+}
+#visitor_name {
+    float: right;
+    margin-top: 80px;
+    margin-right:10px;
+    font-weight:bold;
+}
+/* -------------- slideshow properties -------------------*/
+#slider {
+	width:815px;
+	height:300px;
+	float:right;
+	margin-top:5px;
+	margin-right:15px;
+}
+
+#slider_controllers_message {
+	float:right;
+	width:815px;
+	margin-right:15px;
+}
+#slider_controllers_message img {
+	margin-bottom:-6px;
+}
+#slider_message {
+	margin-left:20px;
+}
+/* ---------- footer properties ---------------*/
+#footer {
+	color:#818181;
+	font-size:10px;
+	text-transform:uppercase;
+	height:35px;
+	border-top: 1px solid #464646;
+	clear:both;
+	width:1014px;
+	margin-left:5px;
+	margin-top:10px;	
+}
+
+#footer p {
+	float:right;
+	margin-right:10px;
+	font-size:10px;
+	margin-top:10px;
+}
+#footer .print  {
+	float:left;
+	margin-left:10px;
+}
+#footer .print img {
+	margin-bottom:-3px;
+}
+#footer p a {
+	color:#818181;
+}
+#footer p a:hover {
+	color:#ffffff;
+}
+
+/* ------------------ index page properties ---------------- */
+
+#content-box-index {
+	width:815px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;
+}
+#index-box-outer1 {
+	float: left;
+	width: 244px;
+	margin-bottom: 20px;
+}
+#index-box-outer2 {
+	float: left;
+	width: 244px;
+	margin-bottom: 20px;
+	margin-left:42px;
+}
+
+#index-box-outer3 {
+	float: right;
+	width: 244px;
+	margin-bottom: 20px;
+}
+
+.index-box-inner {
+	width: 222px;
+	background-image: url(../images/index-box-background.jpg);
+	border-top: 1px solid #464646;
+	border-left: 1px solid #464646;
+	border-right: 1px solid #464646;
+	height: 450px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+.index-box-inner img{
+	margin-left:20px;
+}
+
+.index-box-inner h1 {
+	text-align:center;
+	color:#818181;
+}
+.index-box-inner ul {
+	margin-left:-25px
+}
+.index-box-inner li {
+	list-style:none;
+}
+
+#content-box-index #index-box-outer img {
+	float: left;
+}
+
+/* ------------------ about page properties ---------------- */
+#content-box-about {
+	width:815px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;
+	
+}
+#content-box-about img {
+	float: left;
+	margin-right: 15px;
+}
+#content-box-about h1 {
+	color: #c20008;
+	text-align:center;
+}
+#content-box-about #text-right-about {
+	float: left;
+	width: 330px;
+}
+#content-box-about #text-about {
+	clear: both;
+	float: left;
+}
+#content-box-about #text-about ul {
+	list-style-image: url(../images/about_list.png);
+}
+/* ------------------ gallery page properties ---------------- */
+#content-box-gallery {
+	width:815px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;	
+}
+#content-box-gallery .image-gallery {
+	float: left;
+	width: 248px;
+	margin-right: 10px;
+	margin-left: 11px;
+	margin-top:11px;
+	margin-bottom:11px;
+	background-color: #000000;
+	text-align: center;
+	border:1px solid #464646;
+}
+/* ------------------ service page properties ---------------- */
+#content-box-service {
+	width:815px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;	
+}
+#content-box-service h1 {
+	text-align:center;
+}
+#content-box-service .service-field {
+	float: left;
+	border-bottom:1px solid #464646;
+	margin-bottom: 15px;
+	width:100%;
+}
+#content-box-service .service-field img {
+	margin-right: 10px;
+	float: left;
+}
+/* ------------------ news page properties ---------------- */ 
+#content-box-news {
+	width:815px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;	
+}
+/* ------------------ contact page properties ---------------- */
+#content-box-contact {
+	width:815px;
+	float:right;
+	margin-top:10px;
+	margin-right:15px;
+	margin-bottom:5px;
+	position: relative;
+}
+#content-box-contact #map_canvas_custom_35478 {
+	width:815px;
+	height:538px;
+	background-image:url(../images/contact_map.jpg);
+}
+	
+#content-box-contact #address {
+	width: 222px;
+	position: absolute;
+	top: 430px;
+	background-image: url(../images/index-box-background.jpg);
+	border: 1px solid #464646;
+	padding: 10px;
+	right: 5px;
+}
+#content-box-contact #address ul {
+	margin-left:-25px;
+}
+#content-box-contact #address li {
+	list-style:none;
+}
+#content-box-contact #form {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	clear: both;
+	float: left;
+	width: 550px;
+}
+#content-box-contact #form form #inputs {
+	width: 180px;
+	float: left;
+}
+
+#content-box-contact #form form #textarea {
+	width: 350px;
+	float: right;
+}
+#content-box-contact #form form #textarea input {
+	float: right;
+	margin-top:10px;
+	margin-right:5px;
+}
+
+#name_message, #email_message, #phone_message, #text_area_message {
+	color:#818181;
+	font-size:10px;
+}
+	
+/*------------------ thank_you page properties----------------------------------*/
+
+#thank_you_content {
+	width:450px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:200px;
+	border-bottom: #fff solid 2px;
+	text-align:center;
+}
+

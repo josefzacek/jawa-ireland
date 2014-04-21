@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* ------------------- main frame properties---------------------- */
+body {
+	background:none;
+	color:#000000;
+	font-family: Georgia, serif;
+}
+a:after {
+	content: " [" attr(href) "] ";
+}
+#main-menu-wrapper, #header, #footer{
+	display:none;
+}
+
+/* ------------------- index page properties---------------------- */
+
+#content-box-index {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#slider, #slider_controllers_message, #content-box-index img  {
+	display:none;
+}
+.index-box-inner {
+	border:none;
+}
+
+/* ------------------- about page properties---------------------- */
+
+#content-box-about {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#content-box-about img {
+	display:none;
+}
+#content-box-about #text-about ul {
+	list-style:none;
+}
+/* ------------------- gallery page properties---------------------- */
+
+#content-box-gallery {
+	width:100%;
+	padding:0px;
+	margin:0px;
+}
+#content-box-gallery .image-gallery {
+	border:none;
+}
+/* ------------------- service page properties---------------------- */
+
+#content-box-service {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#content-box-service img {
+	display:none;
+}	
+#content-box-service .service-field {
+	border:none;
+}
+/* ------------------- news page properties---------------------- */
+
+#content-box-news {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#content-box-news img {
+	display:none;
+}	
+/* ------------------- contact page properties---------------------- */
+
+#content-box-contact {
+	float:left;
+	padding:0px;
+	margin:0px;
+}
+#form {
+	display:none;
+}
+#content-box-contact #address  {
+	border:none;
+}
